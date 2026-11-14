@@ -1,0 +1,4 @@
+# Keep prettier off the templates
+templates/
+static/
+assets/
