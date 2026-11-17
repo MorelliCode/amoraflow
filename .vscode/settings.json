@@ -1,7 +1,9 @@
 {
   "python.defaultInterpreterPath": ".venv/bin/python",
   "[python]": { "editor.defaultFormatter": "charliermarsh.ruff", "editor.formatOnSave": true },
-  "files.associations": { "*.html": "django-html" },
+  "files.associations": { 
+    "*.html": "django-html",
+    "*.css": "tailwindcss" },
   "emmet.includeLanguages": { "django-html": "html" },
   "tailwindCSS.includeLanguages": { "django-html": "html" },
   "tailwindCSS.experimental.classRegex": [["class\\s*=\\s*[\"']([^\"']*)"]],

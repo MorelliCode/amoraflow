@@ -1,0 +1,81 @@
+/* Design tokens — extracted from the Penpot file `wireframes_v1`, page `Page 3`, revision 1154.
+   Source of record: `wireframes_v4.md` §3.5. Imported by `assets/input.css`.
+   Do not hand-edit: fix the value in Penpot and re-extract. */
+
+@theme static {
+  /* base palette */
+  --color-sand: #DFD7C4;
+  --color-wine: #571435;
+  --color-petrol: #3B748D;
+  --color-gold: #CEAE59;
+  --color-gold-end: #D6B967;
+  --background-image-gold-gradient: linear-gradient(135deg, #CEAE59 0%, #D6B967 100%);
+
+  /* derived, registered in the Penpot library */
+  --color-sand-light: #F6F4EF;
+  --color-sand-shade: #D6CCB3;
+  --color-sand-dark: #E9E2CE;
+  --color-sand-line: #8A7850;
+  --color-sand-hairline: #B8AA8B;
+  --color-ink: #290A19;
+  --color-wine-light: #F4E6ED;
+  --color-petrol-text: #326378;
+  --color-petrol-light: #DDE9EE;
+  --color-gold-text: #705A21;
+  --color-gold-wash: #F1EBDA;
+  --color-danger: #B51D36;
+  --color-danger-light: #F7E1E5;
+  --color-success: #1F6941;
+  --color-success-light: #E2F3EA;
+  --color-white: #FFFFFF;
+
+  /* states: CSS only, these do not exist in the Penpot file */
+  --color-petrol-hover: #2F5C70;
+  --color-petrol-active: #244857;
+  --color-wine-deep: #420F28;
+  --color-wine-hover: #741B47;
+  --color-gold-hover: #C7A241;
+  --color-danger-hover: #96182D;
+  --color-success-hover: #185233;
+
+  /* dialog scrim: registered token, no swatch in the library */
+  --color-scrim-ink: rgba(41, 10, 25, 0.55);
+
+  /* font families */
+  --font-sans: "Jost", system-ui, sans-serif;
+  --font-script: "Waterfall", "Segoe Script", cursive;
+
+  /* type scale: seven sizes, line-height 1.2 in every role */
+  --text-meta: 12px;
+  --text-meta--line-height: 1.2;
+  --text-label: 13px;
+  --text-label--line-height: 1.2;
+  --text-body: 14px;
+  --text-body--line-height: 1.2;
+  --text-card: 15px;
+  --text-card--line-height: 1.2;
+  --text-section: 16px;
+  --text-section--line-height: 1.2;
+  --text-section-lg: 18px;
+  --text-section-lg--line-height: 1.2;
+  --text-page: 20px;
+  --text-page--line-height: 1.2;
+}
+
+/* The two faces the design uses. They sit in static/fonts/ and were vendored, but nothing in the
+   project declared them until now, so the app would have rendered Arial. Both are SIL OFL 1.1. */
+@font-face {
+  font-family: "Jost";
+  src: url("/static/fonts/Jost[wght].ttf") format("truetype-variations");
+  font-weight: 100 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Waterfall";
+  src: url("/static/fonts/Waterfall-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
