@@ -46,19 +46,19 @@
   --font-script: "Waterfall", "Segoe Script", cursive;
 
   /* type scale: seven sizes, line-height 1.2 in every role */
-  --text-meta: 12px;
+  --text-meta: calc(12/16 * 1rem);
   --text-meta--line-height: 1.2;
-  --text-label: 13px;
+  --text-label: calc(13/16 * 1rem);
   --text-label--line-height: 1.2;
-  --text-body: 14px;
+  --text-body: calc(14/16 * 1rem);
   --text-body--line-height: 1.2;
-  --text-card: 15px;
+  --text-card: calc(15/16 * 1rem);
   --text-card--line-height: 1.2;
-  --text-section: 16px;
+  --text-section: calc(16/16 * 1rem);
   --text-section--line-height: 1.2;
-  --text-section-lg: 18px;
+  --text-section-lg: calc(18/16 * 1rem);
   --text-section-lg--line-height: 1.2;
-  --text-page: 20px;
+  --text-page: calc(20/16 * 1rem);
   --text-page--line-height: 1.2;
 }
 
