@@ -60,6 +60,9 @@
   --text-section-lg--line-height: 1.2;
   --text-page: calc(20/16 * 1rem);
   --text-page--line-height: 1.2;
+
+  /* Other sizes: Define in rem as a default */
+  --container-app: 28rem;
 }
 
 /* The two faces the design uses. They sit in static/fonts/ and were vendored, but nothing in the
